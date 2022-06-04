@@ -186,7 +186,7 @@ eval("__webpack_require__(/*! ./main.css */ \"./src/main.css\");\nconst show = _
   \*********************/
 /***/ ((__unused_webpack_module, exports) => {
 
-eval("function open_download_page(){\n    window.open(\"https://github.com/bobobozzz/production/releases\");\n}\n\nfunction show() {\n    element = window.document.getElementById('bDownload');\n    element.onclick = open_download_page;\n}\n\n\nexports.show = show;\n\n\n//# sourceURL=webpack://topy.website/./src/show.js?");
+eval("function open_download_page(){\n    window.open(\"https://github.com/bobobocode/topy-desk-product/releases\");\n}\n\nfunction show() {\n    element = window.document.getElementById('bDownload');\n    element.onclick = open_download_page;\n}\n\n\nexports.show = show;\n\n\n//# sourceURL=webpack://topy.website/./src/show.js?");
 
 /***/ })
 

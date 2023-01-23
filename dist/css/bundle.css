@@ -72,10 +72,13 @@ body {
     align-items: center;
 }
 
-.intro {
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
+@media screen and (min-width: 600px){
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        width: 75%;
+        min-width: 1000px;
+    }
 }
 
 .feature {
@@ -118,7 +121,7 @@ body {
     height: 345px;
     background-size: 100%;
     background-position: center;
-    background-image: url(../e489a4d59d8125c14fee020ae6c07a71.png);
+    background-image: url(../19fcd83c034b32eedb43326bb55738c7.png);
     background-repeat: no-repeat;
 }
 
@@ -226,7 +229,7 @@ hr {
         height: 170px;
         background-size: 100%;
         background-position: center;
-        background-image: url(../e489a4d59d8125c14fee020ae6c07a71.png);
+        background-image: url(../19fcd83c034b32eedb43326bb55738c7.png);
         background-repeat: no-repeat;
     }
 }
